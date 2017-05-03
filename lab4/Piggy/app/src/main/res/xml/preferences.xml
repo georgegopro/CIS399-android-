@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="All Settings"
+        android:key="setting_category">
+        <CheckBoxPreference
+            android:key="use_background"
+            android:title="@string/background_title"
+            android:summary="@string/background_summary"
+            android:defaultValue="false" />
+        <ListPreference
+            android:key ="pref_color"
+            android:title ="Background Color"
+            android:summary="Pick any color you like"
+            android:dependency="use_background"
+            android:entries="@array/color_keys"
+            android:entryValues="@array/color_values"
+            android:defaultValue="red"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Front"
+        android:key = "value_front">
+        <ListPreference
+            android:key="savedValues_size"
+            android:title="@string/size_title"
+            android:summary="@string/size_summary"
+            android:dependency="use_background"
+            android:dialogTitle="@string/size_title"
+            android:entries="@array/size_keys"
+            android:entryValues="@array/size_values"
+            android:defaultValue="20"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title = "Goal"
+        android:key ="value_category">
+        <ListPreference
+            android:key="savedValues_goal"
+            android:title="@string/goal_title"
+            android:summary="@string/goal_summary"
+            android:dialogTitle="@string/goal_title"
+            android:entries="@array/goal_keys"
+            android:entryValues="@array/goal_values"
+            android:defaultValue="100" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

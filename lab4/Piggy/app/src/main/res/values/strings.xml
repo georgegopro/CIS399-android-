@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Piggy</string>
+    <string name="title_activity_main">Piggy</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+
+    <string name="title_activity_about">About</string>
+    <string name="about">The version of the Pig Game app with two players calculate for winner</string>
+
+    <string name="background_title">Background</string>
+    <string name="background_summary">Use the background or not use it</string>
+
+    <string name="goal_title">Choose Goal</string>
+    <string name="goal_summary">Choose a number you want to count</string>
+
+    <string-array name="goal_keys">
+        <item >50 Points</item>
+        <item >100 Points</item>
+        <item >200 Points</item>
+    </string-array>
+
+    <string-array name="goal_values">
+        <item >50</item>
+        <item >100</item>
+        <item >200</item>
+    </string-array>
+
+    <string name="color_title">Front Color</string>
+    <string name="color_summary">Pick front color you like</string>
+
+    <string-array name="color_keys">
+        <item >Red</item>
+        <item >Blue</item>
+        <item >Yellow</item>
+    </string-array>
+
+    <string-array name="color_values">
+        <item >red</item>
+        <item >blue</item>
+        <item >yellow</item>
+    </string-array>
+
+    <string name="size_title">Front Size</string>
+    <string name="size_summary">Pick front size you want to change</string>
+
+    <string-array name="size_keys">
+        <item >Small</item>
+        <item >Medium</item>
+        <item >Large</item>
+    </string-array>
+
+    <string-array name="size_values">
+        <item >20</item>
+        <item >25</item>
+        <item >30</item>
+    </string-array>
+
+
+</resources>

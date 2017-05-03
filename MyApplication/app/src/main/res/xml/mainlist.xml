@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Poker Show">
+        <Preference android:title="List Poker" android:summary="Display a List of Cards">
+            <intent android:targetClass="com.example.george.myapplication.ListActivity"
+                android:targetPackage="com.example.george.myapplication"></intent>
+        </Preference>
+        <Preference android:title="Animation" android:summary="auto display cards positive sequence">
+            <intent android:targetClass="com.example.george.myapplication.AnimationActivity"
+                android:targetPackage="com.example.george.myapplication"></intent>
+        </Preference>
+        <Preference android:title="Stack" android:summary="stack type">
+            <intent android:targetClass="com.example.george.myapplication.StackA"
+                android:targetPackage="com.example.george.myapplication"></intent>
+        </Preference>
+        <Preference android:title="Cards" android:summary="It will display the total of poker cards">
+            <intent android:targetClass="com.example.george.myapplication.SwitcherList"
+                android:targetPackage="com.example.george.myapplication"></intent>
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>
